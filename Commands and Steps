@@ -1,0 +1,7 @@
+Commandds to tun Nodejs projects
+-------------------------------------------------------------------------------------
+To start MongoDB: "cd C:\Program Files\MongoDB\Server\3.2\bin  & mongod"
+To run monngodb: "cd C:\Program Files\MongoDB\Server\3.2\bin & mongo"
+To start npm: cd "D:\project TK\conferenceM & npm start"
+To create project: 1. "npm install -g express --save" and 2. "express project_name"
+---------------------------------------------------------
