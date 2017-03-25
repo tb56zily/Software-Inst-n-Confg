@@ -1,0 +1,17 @@
+After installing ubuntu along side windows 7, windows 7 starts but with creashed screen 
+Son: boot with win 7 repair dvd/usb -> goto repair-> goto command prompt. Enter bootrec/fixmbr and press enter
+then type bootrec/fixboot hit enter. restart system. win 7 ll boot successfully
+
+Installing ubuntu:
+
+* dont partition windows drive dynamically. If done then cant install ubuntu at any cost
+* boot linux with usb select any of the ntfs from partion install
+* if u fail to see any partion or hard disk when installing win after removing ubuntu them:
+	boot with win 7 repair dvd/usb -> goto repair-> goto command prompt type:
+	1.diskpart
+	2.list disk
+	3.select disk number
+	4.clean
+	
+
+J8963-CVGTM-MP973-6PD9W-6HFF9

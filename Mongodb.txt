@@ -1,0 +1,17 @@
+1.Install mongodb
+
+2.Create "db" folder and inside it create "data" and "logs" folders. Also create "mongodb.conf" file in "db" folder and add these lines in the .conf file
+
+dbpath = C:\data
+port = 12345
+logpath = C:\logs\mongo.log
+
+3.Then open command prompt(run as admin) move to mogodb bin folder in same commandprompt and execute this command in single line.
+
+mongod -f "path /to/the /file/mongodb.conf" --install --serviceName mongodb12345 --serviceDisplayName "MongoDB Server Instance 12345" --serviceDescription "MongoDB Server Instance running on 12345
+
+4.Open cmd prompt and type mongod  to start service
+
+5. open another cmd prompt (run as administrator)  and type mongo to start the db
+
+
